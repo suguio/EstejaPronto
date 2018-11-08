@@ -17,25 +17,5 @@
     <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
   </li>
 </ul>
-<button class='btn btn-success'>click me</button>
 
 <router-outlet></router-outlet>
-
-
-<!-- container -->
-<div class="container">
- 
-    <!-- show page header -->
-    <div class="row">
-        <div class="col-md-12">
-            <div class='page-header'><h1>{{title}}</h1></div>
-        </div>
-    </div>
- 
-    <!-- Show this view if "show_read_products_html" property of AppComponent is true. -->
-    <app-read-products
-        *ngIf="show_read_products_html">
-    </app-read-products>
- 
-</div>
-<!-- /container -->
